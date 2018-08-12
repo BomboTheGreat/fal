@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8" />
+	<title></title>
+	<style>
+	
+		* {
+			box-sizing: border-box;
+		}
+
+		header {
+			border: solid;
+			padding: 25px;
+			text-align: center;
+			text-decoration: underline;
+			margin-bottom: 0px;
+		}
+
+		.row:after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+
+		.column {
+			float: right;
+			padding: 10px;
+		}
+
+			.column.side {
+				width: 25%;
+				border: solid;
+				padding: 25px;
+				padding-bottom: 425px;
+				text-align: right;
+				text-decoration: underline;
+				margin-top: 0px;
+			}
+
+			.column.middle {
+				width: 75%;
+				border: solid;
+				padding: 25px;
+				padding-bottom: 177px;
+				text-align: right;
+				margin-top: 0px;
+			}
+
+		input {
+			border: solid;
+			padding: 15px;
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+
+		textarea {
+			border: solid;
+			padding: 15px;
+			font-size: 20px;
+			margin-bottom: 30px;
+		}
+
+		footer {
+			border: solid;
+			padding: 0px;
+			text-align: center;
+			margin-top: 0px;
+		}
+		h2 {
+		}
+	
+	</style>
+</head>
+<body dir="rtl">
+	<header> <h1> אתר המשחקים הכי אחי בארץ!</h1> </header>
+	<div class="row">
+		<div class="column side">
+			<h2> <a href="welcome.html"> דף הבית</a> </h2>
+			<h2> <a href="games.html"> משחקים</a> </h2>
+			<h2> <a href=""> צרו קשר</a> </h2>
+		</div>
+		<div class="column middle">
+			<div ><h2 style="float:right;" >שם מלא: &nbsp;&nbsp;   </h2><input type="text" size="20" /></div>
+			<div><h2 style="float:right;">טלפון: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </h2><input type="number" size="25" /></div>
+			<div><h2 style="float:right;">הודעה: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   </h2><textarea rows="7" cols="50"></textarea></div>
+			<div style="text-align:center;"><input  type="button" value="שלח" onClick="location.href = 'thanks.html'"/></div>
+		</div>
+	</div>
+	<footer>
+		<h3>כל הזכויות שמורות&reg;</h3>
+	</footer>
+</body>
+</html>

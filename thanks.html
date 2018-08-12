@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+</head >
+<body >
+	<canvas id="myCanvas" width="1000" height="100" style="border:6px dotted #ff6a00; ">
+		Your browser does not support the HTML5 canvas tag.
+	</canvas>
+
+	<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+		ctx.font = "30px Arial";
+		ctx.fillStyle = 'blue';
+		ctx.textAlign='left';
+ctx.fillText("הפרטים נשלחו בהצלחה",10,50);
+	</script>
+
+</body>
+</html>
